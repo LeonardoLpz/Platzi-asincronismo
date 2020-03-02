@@ -1,3 +1,5 @@
+// este es el archivo de entrada que se lee de acuerdo con la configuración contenida en el archivo package.json
+
 // funcion que suma 2 numeros que entran como parámetros
 function sum(num1, num2){
     return num1 + num2

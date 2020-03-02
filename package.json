@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "description": "trabajando con asincronismo en JS",
   "main": "src/index.js",
-  // estos son los scripts que node lee para ejecutar codigo de archivos
   "scripts": {
-    // se nombra el script que se ejecuta en consola, en este caso callback, y se agrega la ruta donde se encuentra el código a ejecutar
-    "callback":"node src/callback/index.js"
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js"
+
   },
   "keywords": [
     "callbacks",
     "promises"
   ],
   "author": "Leonardo Lopez - Front-end developer",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
